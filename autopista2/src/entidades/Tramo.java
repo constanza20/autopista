@@ -58,7 +58,7 @@ public class Tramo {
 	
 	public static Tramo nuevoTramo() {
 		Tramo ret = null;
-		long idTramo = 1;
+		long idTramo = -1;
 		int kmInicio = 0;
 		int kmFin = 1;
 		Tramo t = null;

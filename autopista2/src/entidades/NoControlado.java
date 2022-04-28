@@ -122,7 +122,7 @@ public class NoControlado extends Tramo {
 			do {
 				System.out.println("Introduzca los desniveles que haya:");
 				in = new Scanner(System.in);
-				desnivel = in.nextInt();
+				desnivel = in.nextDouble();
 				if (desnivel >= 0)
 					valido = true;
 				else
