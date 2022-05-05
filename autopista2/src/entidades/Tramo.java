@@ -1,10 +1,9 @@
 package entidades;
 
 import java.util.ArrayList;
+
 import java.util.Scanner;
 
-import utils.Utilidades;
-import validaciones.Validaciones;
 
 public class Tramo {
 	

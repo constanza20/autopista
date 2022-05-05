@@ -14,14 +14,14 @@ public class Peaje {
 		private int puntokmtramo; // puntokmtramo es un int mayor o igual a 0 con valor por defecto en 0
 		private char sentido; // sentido indica el sentrido del peaje, es un char que puede adoptar los
 								// valores de 1 o 2 y su valor por defecto es #null
-	public Pago abonar;
-	public ArrayList <Pago> pago = new ArrayList();
+		public Pago abonar;
+		public ArrayList <Pago> pago = new ArrayList();
 	
 		//Constructores
 	
 		// Por Defecto:
 
-		public Peaje() {
+		public Peaje(long idPeaje, long idTramo, int puntokmtramo, char sentido, Pago p) {
 		}
 		
 		// Constructores con parámetros:
@@ -93,6 +93,8 @@ public class Peaje {
 			long idTramo = 1;
 			int puntokmtramo = 1;
 			char sentido = 0;
+			Pago p = null;
+
 
 			Scanner in;
 			boolean valido = false;
